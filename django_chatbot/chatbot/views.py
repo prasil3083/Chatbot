@@ -9,7 +9,7 @@ from . models import Chat
 
 
 
-GOOGLE_API_KEY ='AIzaSyBfFsbfJghmCZoP_kfLKrJwqaE47hK_gXE'
+GOOGLE_API_KEY ='add your gemini key'
 genai.configure(api_key = GOOGLE_API_KEY)
 
 def ask_gemini(message):
